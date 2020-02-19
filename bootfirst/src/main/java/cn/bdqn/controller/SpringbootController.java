@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@RestController
+@RestController//sss
 public class SpringbootController {
     @RequestMapping("/w/{mass}")
     public String index(@PathVariable(value="mass")String mass) {
