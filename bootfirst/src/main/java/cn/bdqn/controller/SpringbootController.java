@@ -18,7 +18,7 @@ public class SpringbootController {
     }
     @RequestMapping("/s")
     public String s(HttpServletRequest request, HttpServletResponse response) {
-        System.out.println("客户端ip地址"+request.getRemoteAddr());
+        System.out.println("客户端"+request.getRemoteAddr());
         return "Boot!";
     }
 }
